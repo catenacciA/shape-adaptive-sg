@@ -1,0 +1,4 @@
+# Shape ablation "Contour (q only)": learn q with p fixed at 1.
+asg_footprint: superelliptic
+asg_learn_p: false
+asg_learn_q: true

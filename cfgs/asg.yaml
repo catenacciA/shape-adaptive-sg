@@ -1,0 +1,3 @@
+# Conventional anisotropic spherical Gaussian baseline: fixed (p, q) = (1, 2).
+# Same samples, initialization, objective, optimizer and insertion as "Ours".
+asg_footprint: gaussian

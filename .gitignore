@@ -1,0 +1,25 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editor/OS files
+.env
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+._*
+__MACOSX/
+*:Zone.Identifier
+
+# Inputs and generated outputs
+/data/
+/results/

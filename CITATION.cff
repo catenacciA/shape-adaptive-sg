@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper."
+title: "Shape-Adaptive Spherical Gaussians for HDR Environment Map Reconstruction"
+type: software
+license: MIT
+authors:
+  - family-names: Catenacci
+    given-names: Alessandro
+preferred-citation:
+  type: conference-paper
+  title: "Shape-Adaptive Spherical Gaussians for HDR Environment Map Reconstruction"
+  authors:
+    - family-names: Catenacci
+      given-names: Alessandro
+    - family-names: Pellacini
+      given-names: Fabio
+  collection-title: "STAG: Smart Tools and Applications in Graphics"
+  year: 2026

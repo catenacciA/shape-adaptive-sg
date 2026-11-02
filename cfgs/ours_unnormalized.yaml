@@ -1,0 +1,6 @@
+# Normalization ablation: Ours with the shape normalization switched off,
+# b_pq = 1 and c_pq = 1/pi (the ASG values) for every (p, q).
+asg_footprint: superelliptic
+asg_learn_p: true
+asg_learn_q: true
+asg_normalize_shape: false

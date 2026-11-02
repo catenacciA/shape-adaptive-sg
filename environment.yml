@@ -1,0 +1,18 @@
+# The environment of the paper's results: Linux x86-64, Python 3.11, PyTorch 2.14.0
+# with CUDA 13.0 wheels (Triton is installed with PyTorch), on an NVIDIA RTX 4090.
+# torch.compile also needs a C compiler (gcc) on the PATH.
+name: spherical-kernels
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu130
+      - torch==2.14.0
+      - torchvision==0.29.0         # required by lpips
+      - numpy==2.0.2
+      - pyyaml==6.0.2
+      - opencv-python==4.12.0.88    # EXR input/output
+      - matplotlib==3.10.3          # kernel diagnostics
+      - lpips==0.1.4                # PU21-LPIPS metric

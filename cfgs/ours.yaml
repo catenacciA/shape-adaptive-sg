@@ -1,0 +1,7 @@
+# Shape-adaptive spherical Gaussians ("Ours" in the paper): every primitive
+# learns its radial exponent p and contour exponent q alongside its frame,
+# concentrations and RGB coefficient. All other settings are the paper
+# defaults in utils/config.py (10,000 steps, 3,500 -> 10,000 primitives).
+asg_footprint: superelliptic
+asg_learn_p: true
+asg_learn_q: true

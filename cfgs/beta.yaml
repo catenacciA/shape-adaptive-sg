@@ -1,0 +1,5 @@
+# Kernel ablation: the compactly supported Beta profile (1 - r^2/(beta+2))_+^beta,
+# moment-matched (unit mass, covariance I/2) like every member,
+# with a learnable power beta in [1, 256] (initial 4). Everything else, including
+# residual insertion, is the Ours pipeline. No SKC bitstream is written.
+asg_footprint: beta

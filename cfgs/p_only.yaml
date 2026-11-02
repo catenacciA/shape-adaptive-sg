@@ -1,0 +1,4 @@
+# Shape ablation "Radial (p only)": learn p with q fixed at 2.
+asg_footprint: superelliptic
+asg_learn_p: true
+asg_learn_q: false
