@@ -16,7 +16,7 @@ University of Modena and Reggio Emilia
 We reconstruct HDR environment maps as mixtures of anisotropic primitives fitted directly on the sphere. Each primitive extends the anisotropic spherical Gaussian (ASG) with learnable radial falloff *p* and contour shape *q*, capturing smooth lobes as well as sharp, rectangular emitters. Fitting combines adaptive geodesic quadrature, a solid-angle-weighted PQ objective, and progressive residual-driven densification. The result is a continuous, projection-independent representation stored in **15 bytes per primitive**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8bc3c67b-1008-4491-bef3-fbe30d27059b" alt="Artist Workshop reconstruction comparison with Image-GS and ASG" width="100%">
+  <img src="https://github.com/user-attachments/assets/180345dd-c6f6-4ebb-926d-f45da1c81db4" alt="Artist Workshop reconstruction comparison with Image-GS and ASG" width="100%">
   <br>
   <sub>Artist Workshop at 10,000 primitives, with FLIP error insets.</sub>
 </p>
